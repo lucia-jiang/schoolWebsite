@@ -44,18 +44,4 @@
   color: #495057; /* Muted text colour */
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #007bff; /* Bootstrap primary colour for visibility */
-  border-radius: 50%; /* Optional: Make the arrows circular */
-  width: 30px; /* Adjust width */
-  height: 30px; /* Adjust height */
-}
-
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-}
-
-
 
