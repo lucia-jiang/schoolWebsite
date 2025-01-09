@@ -1,0 +1,32 @@
+.custom-contact-link {
+    background-color: #c2a27b;
+    color: white !important;
+    border-radius: 50px; /* Makes the shape rounded */
+    padding: 10px 20px; /* Adjust padding for width and height */
+    text-align: center;
+    display: inline-block; /* Ensures the ellipse shape is maintained */
+    white-space: nowrap; /* Prevents text from wrapping */
+    transition: all 0.3s ease; /* Optional: Adds a hover effect */
+}
+
+.custom-contact-link:hover {
+    background-color: #a9856c; /* Slightly darker shade for hover */
+    color: white;
+    text-decoration: none; /* Removes underline */
+}
+
+/* General link styles */
+.nav-link {
+    color: #000; /* Default link colour */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+    color: #c2a27b; /* Hover colour */
+}
+
+/* Active link styles */
+.active-link {
+    color: #5a4a3b; /* Slightly darker colour for active text */
+    font-weight: bold; /* Make the active link stand out */
+}

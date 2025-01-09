@@ -14,7 +14,7 @@ const Footer = () => {
             <div>
                 <Row className="g-4">
                     <Col md={4}>
-                        <h2 className="mb-1">华西教育</h2>
+                        <h2 className="mb-2">华西教育</h2>
                         <p><a href="tel:+34688171681" style={{color: 'white'}}> <FaPhone/> +34 688171681</a></p>
                         <p>
                             <a href="mailto:academiahuaxi@gmail.com"

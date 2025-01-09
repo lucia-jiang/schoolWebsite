@@ -6,7 +6,7 @@ const AcademicSupport = () => {
 
     return (
         <div className="container pt-5">
-            <h1 className="text-center mb-4">{t('schoolSupport')}</h1>
+            <h1 className="text-center mb-4">{t('academicSupport')}</h1>
         </div>
     );
 };
