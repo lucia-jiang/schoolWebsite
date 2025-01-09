@@ -1,9 +1,9 @@
 import React from 'react';
-import { useTranslation } from "react-i18next";
-import { Row, Col, Card } from 'react-bootstrap'; // Bootstrap grid and card components for layout
+import {useTranslation} from "react-i18next";
+import {Row, Col, Card} from 'react-bootstrap'; // Bootstrap grid and card components for layout
 
 const Teachers = () => {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     // Sample teachers' data
     const teachers = [
@@ -50,7 +50,7 @@ const Teachers = () => {
                     {teachers.map((teacher) => (
                         <Col md={3} key={teacher.id}>
                             <Card>
-                                <Card.Img variant="top" src={teacher.image} alt={teacher.name} />
+                                <Card.Img variant="top" src={teacher.image} alt={teacher.name}/>
                                 <Card.Body>
                                     <Card.Title>{teacher.name}</Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted">{teacher.role}</Card.Subtitle>

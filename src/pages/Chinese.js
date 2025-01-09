@@ -1,9 +1,9 @@
 import React from 'react';
-import { useTranslation } from "react-i18next";
-import { Row, Col, Card, Table } from 'react-bootstrap'; // Import necessary Bootstrap components
+import {useTranslation} from "react-i18next";
+import {Row, Col, Card, Table} from 'react-bootstrap'; // Import necessary Bootstrap components
 
 const Chinese = () => {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     // Class data
     const classes = [
@@ -29,9 +29,9 @@ const Chinese = () => {
 
     // Schedule data
     const schedule = [
-        { day: t('monday'), time: '10:00 AM - 11:30 AM', class: t('beginnerChinese') },
-        { day: t('wednesday'), time: '2:00 PM - 3:30 PM', class: t('intermediateChinese') },
-        { day: t('friday'), time: '9:00 AM - 10:30 AM', class: t('advancedChinese') },
+        {day: t('monday'), time: '10:00 AM - 11:30 AM', class: t('beginnerChinese')},
+        {day: t('wednesday'), time: '2:00 PM - 3:30 PM', class: t('intermediateChinese')},
+        {day: t('friday'), time: '9:00 AM - 10:30 AM', class: t('advancedChinese')},
     ];
 
     return (
@@ -45,7 +45,7 @@ const Chinese = () => {
                     {classes.map((classItem) => (
                         <Col md={4} key={classItem.id}>
                             <Card>
-                                <Card.Img variant="top" src={classItem.image} alt={classItem.name} />
+                                <Card.Img variant="top" src={classItem.image} alt={classItem.name}/>
                                 <Card.Body>
                                     <Card.Title>{classItem.name}</Card.Title>
                                     <Card.Text>{classItem.description}</Card.Text>
