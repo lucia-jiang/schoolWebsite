@@ -1,5 +1,5 @@
 .custom-contact-link {
-    background-color: #c2a27b;
+    background-color: #c2a27b !important;
     color: white !important;
     border-radius: 50px; /* Makes the shape rounded */
     padding: 10px 20px; /* Adjust padding for width and height */
@@ -10,10 +10,10 @@
 }
 
 .custom-contact-link:hover {
-    background-color: #a9856c; /* Slightly darker shade for hover */
-    color: white;
-    text-decoration: none; /* Removes underline */
+    background-color: #a08467; /* Slightly darker shade on hover */
+    color: white !important; /* Keeps the text white on hover */
 }
+
 
 /* General link styles */
 .nav-link {
