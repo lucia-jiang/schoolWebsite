@@ -32,7 +32,6 @@ const Footer = () => {
                         </p>
                     </Col>
                     <Col md={3}>
-                        <p><SiWechat/> {t('wechat')}: Huxiyszx </p>
                         <p><SiWechat/> {t('wechat')}: hxsy688171681 </p>
                         <p>
                             <a href="https://wa.me/34688171681" target="_blank" rel="noopener noreferrer"
